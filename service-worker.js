@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/pensadotech/reactgithub/precache-manifest.67e88d61e4ed85f6f752c3268de26a03.js"
+  "/reactgithub/precache-manifest.eb89771de7d813b8cd2bbef4a6480a00.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/pensadotech/reactgithub/index.html", {
+workbox.routing.registerNavigationRoute("/reactgithub/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

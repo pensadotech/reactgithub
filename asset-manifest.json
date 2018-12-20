@@ -1,14 +1,14 @@
 {
-  "main.css": "/pensadotech/reactgithub/static/css/main.6d405e8b.chunk.css",
-  "main.js": "/pensadotech/reactgithub/static/js/main.7d3d5a38.chunk.js",
-  "main.js.map": "/pensadotech/reactgithub/static/js/main.7d3d5a38.chunk.js.map",
-  "static/js/1.82dafdb5.chunk.js": "/pensadotech/reactgithub/static/js/1.82dafdb5.chunk.js",
-  "static/js/1.82dafdb5.chunk.js.map": "/pensadotech/reactgithub/static/js/1.82dafdb5.chunk.js.map",
-  "runtime~main.js": "/pensadotech/reactgithub/static/js/runtime~main.1e613129.js",
-  "runtime~main.js.map": "/pensadotech/reactgithub/static/js/runtime~main.1e613129.js.map",
-  "static/media/logo.svg": "/pensadotech/reactgithub/static/media/logo.ee7cd8ed.svg",
-  "static/css/main.6d405e8b.chunk.css.map": "/pensadotech/reactgithub/static/css/main.6d405e8b.chunk.css.map",
-  "index.html": "/pensadotech/reactgithub/index.html",
-  "precache-manifest.67e88d61e4ed85f6f752c3268de26a03.js": "/pensadotech/reactgithub/precache-manifest.67e88d61e4ed85f6f752c3268de26a03.js",
-  "service-worker.js": "/pensadotech/reactgithub/service-worker.js"
+  "main.css": "/reactgithub/static/css/main.6d405e8b.chunk.css",
+  "main.js": "/reactgithub/static/js/main.3fbfa250.chunk.js",
+  "main.js.map": "/reactgithub/static/js/main.3fbfa250.chunk.js.map",
+  "static/js/1.82dafdb5.chunk.js": "/reactgithub/static/js/1.82dafdb5.chunk.js",
+  "static/js/1.82dafdb5.chunk.js.map": "/reactgithub/static/js/1.82dafdb5.chunk.js.map",
+  "runtime~main.js": "/reactgithub/static/js/runtime~main.7701be88.js",
+  "runtime~main.js.map": "/reactgithub/static/js/runtime~main.7701be88.js.map",
+  "static/media/logo.svg": "/reactgithub/static/media/logo.ee7cd8ed.svg",
+  "static/css/main.6d405e8b.chunk.css.map": "/reactgithub/static/css/main.6d405e8b.chunk.css.map",
+  "index.html": "/reactgithub/index.html",
+  "precache-manifest.eb89771de7d813b8cd2bbef4a6480a00.js": "/reactgithub/precache-manifest.eb89771de7d813b8cd2bbef4a6480a00.js",
+  "service-worker.js": "/reactgithub/service-worker.js"
 }
