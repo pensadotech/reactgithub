@@ -1,7 +1,93 @@
-<<<<<<< HEAD
-# reactgithub
-How to deploy a REACT application in Github (with no DB)
-=======
+# Create React project and deploy to GitHub (no DB)
+
+_How to deploy a REACT (with no DB) application in Github_
+
+
+## Steps
+
+The following are my personal steps when creating a github page
+
+1. Open gitbash and move to a folder in which the project folder will be created as a child folder.
+
+2. Create the React project using the command below. This will create the project folder. Wait until _"Happy hacking"_ message shows in the terminal.
+```js
+npx create-react-app <projectname> 
+```
+
+3. Open the project folder in VS Code.
+
+4. Create a new Githhub repository at your github sapces (https://github.com).
+
+5. In VS Code open the terminal and initialize the project for GitHub:
+```js 
+git init
+```
+
+6. Add everything to git:
+```js  
+git add -A 
+```
+
+7. Make an initial commit: 
+```js
+git commit -m "my first commit"
+```
+
+8. Connect the local project with the remote repository
+```js
+git remote add origin https://github.com/<your_name>/<your_project>.git
+```
+
+9. Push the project to remote repository
+```js
+git push --set-upstream origin master 
+Note: can use 'dev' instead of 'master'
+
+Optional: git push -u origin master
+```
+
+10. Pull the report to sync local folder 
+```js
+git pull 
+```
+
+11. Add github pages npm 
+```js
+   npm i gh-pages
+```
+
+12. Refrence the github pages inside **package.json** in the main section,under the _"name"_ property: 
+```js
+"homepage" : "https://<your_name>.github.io/<your_project>"
+```
+
+13. Commit all and push all again throug VS Code or using terminal commands.
+
+14. Build the React project
+```js
+npm run build
+```
+
+15. Add a deploy command inside package.json, under scripts section.
+```js 
+"deploy": "gh-pages -d build"
+```
+
+16. Deploy the project to github,
+```js
+npm run deploy
+```
+
+17. After any changes and when ready for new deployment execute
+
+		a. Build the project: **npm run build**
+		b. Commit all changes.
+		c. Push the changes
+		d. Delpoy: **npm run deploy**
+
+
+## Additional information
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -46,4 +132,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
->>>>>>> Initial commit from Create React App
+
+
